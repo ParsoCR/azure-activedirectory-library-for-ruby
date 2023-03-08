@@ -69,8 +69,8 @@ module ADAL
     end
 
     def default_parameters
-      { encoding: DEFAULT_ENCODING,
-        AAD_API_VERSION => '1.0' }
+      #{ encoding: DEFAULT_ENCODING,AAD_API_VERSION => '1.0' }
+      {}
     end
   end
 end
